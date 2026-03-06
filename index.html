@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley – Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <p class="hero-greeting fade-in">Hello, I'm</p>
+            <h1 class="hero-name fade-in delay-1">Ashley<br><span class="hero-lastname">Hunter</span></h1>
+            <p class="hero-title fade-in delay-2">Data Analyst & Trainer</p>
+            <p class="hero-tagline fade-in delay-3">I turn messy data into dashboards people actually use and then teach their teams how to use them.</p>
+            <div class="hero-cta fade-in delay-4">
+                <a href="#projects" class="btn btn-primary">Overview of My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 id="#about">I bridge the gap between <em>raw data</em> and <em>real decisions</em>.</h2>
+                    <p>
+                        I'm a data analyst with 2+ years of experience in the field across many areas. 
+                        I bring a unique perspective shaped by a background in education and a 
+                        methodical approach to understanding systems deeply — not just working 
+                        within narrow specializations. I have come to the data field from several other
+                        industries therefore skills acquired in those areas helps me to be successful now.
+                    </p>
+                    <p>
+                        My toolkit spans SQL, Python, Power BI, Tableau, HTML, CSS, JavaScript and I'm always 
+                        expanding — currently diving into Snowflake and advanced web scraping techniques 
+                        alongside working within Looker. I am proficient in R, YAML and Machine Learning. 
+                        I thrive on turning messy, complex data into dashboards and analyses that drive 
+                        real decisions - each project is thought of as a treasure hunt.
+                    </p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <span class="detail-label">Location</span>
+                        <span class="detail-value">Oklahoma, US</span>
+                    </div>
+                    <div class="detail-card">
+                        <span class="detail-label">Open to</span>
+                        <span class="detail-value">Fulltime and contract positions</span>
+                    </div>    
+                    <div class="detail-card">
+                        <span class="detail-label">Languages</span>
+                        <span class="detail-value">English · Spanish</span>
+                    </div>
+                    <div class="detail-card">
+                        <span class="detail-label">Focus</span>
+                        <span class="detail-value">Open to any field</span>
+                    </div>
+                    <div class="detail-card">
+                        <span class="detail-label">Current Work Status</span>
+                        <span class="detail-value">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-heading">Technical Toolkit</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <h3>Languages &amp; Querying</h3>
+                    <div class="skill-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">R</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">DAX</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Version Control, IDE &amp; OS</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">PyCharm</span>
+                        <span class="tag">Windows</span>
+                        <span class="tag">Unbuntu</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Visualization &amp; BI</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Tableau</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">Looker</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="tag">ETL Pipelines</span>
+                        <span class="tag">Web Scraping</span>
+                        <span class="tag">Snowflake</span>
+                        <span class="tag">Scrapy</span>
+                        <span class="tag">Selenium</span>
+                        <span class="tag">BeautifulSoup</span>
+                        <span class="tag">Playwright</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Analysis &amp; Methods</h3>
+                    <div class="skill-tags">
+                        <span class="tag">A/B Testing</span>
+                        <span class="tag">Statistical Analysis</span>
+                        <span class="tag">Data Cleaning</span>
+                        <span class="tag">Dashboard Design</span>
+                        <span class="tag">Healthcare Analytics</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-heading">Where I've Worked</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">12/2024 – 01/2026</div>
+                        <h3>Associate Power BI Developer</h3>
+                        <p class="timeline-company">Imperial, LLC — Remote</p>
+                        <ul class="timeline-details">
+                            <li>Created reports via Power BI and Fabric for the company, utilizing Azure DevOps.</li>
+                            <li>Performed report troubleshooting and ongoing maintenance to ensure data accuracy.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">12/2023 – 12/2024</div>
+                        <h3>Data Analyst / Trainer</h3>
+                        <p class="timeline-company">Northeastern Health System — Tahlequah, OK</p>
+                        <ul class="timeline-details">
+                            <li>Trained Department Heads and C-Suite management on Power BI.</li>
+                            <li>Created Power BI reports for 5+ hospital departments using Cerner to extract and analyze clinical data.</li>
+                            <li>Maintained department SharePoint page with reports and documentation.</li>
+                            <li>Received Rookie of the Month award for August.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">06/2022 – 08/2023</div>
+                        <h3>Remote IT Recruiter</h3>
+                        <p class="timeline-company">Neteffects — Remote</p>
+                        <ul class="timeline-details">
+                            <li>Analyzed resumes and interviewed candidates using multiple sourcing platforms to fill technical positions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">11/2019 – 10/2022</div>
+                        <h3>Contract Instructor, Web Manager & Social Media Manager</h3>
+                        <p class="timeline-company">Savvy Coders — Remote</p>
+                        <ul class="timeline-details">
+                            <li>Created and taught curriculum for a 12-week Data Analytics & Python boot camp covering SQL, Excel, Tableau, and job readiness for online cohorts of 10+ students.</li>
+                            <li>Managed school website with content edits, additions, and class schedule updates.</li>
+                            <li>Created and managed social media content and ads; performed monthly analytics on engagement to guide strategy.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2002 - 2019</div>
+                        <h3>Full work history is available upon request</h3>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-heading">Projects</h2>
+            <div class="project-text">
+                <p>My <a href="https://github.com/AHunter2026"><b>GitHub</b></a> has several projects that are completed and others that are in progress. 
+                   From each project, one should be able to get a good idea of the project concepts and the programming
+                   behind each one. Several projects are listed below with a short description.</p>
+            </div>
+            <div class="projects-grid">
+
+                <a href="https://github.com/AHunter2026/Graduation-Rate-Influencers" class="project-card" target="_blank">
+                    <div class="project-number">01</div>
+                    <h3>Education Graduation Rate Analysis</h3>
+                    <p>Capstone project analyzing teacher-related factors and graduation rates across Germany, France, and the UK using multiple regression in Python. Education expenditure was the only statistically significant predictor (R²=83.8%).</p>
+                    <span class="project-link-text">View on GitHub →</span>
+                </a> 
+                
+                <a href="https://github.com/AHunter2026/Deploying-a-Scalable-ML-Pipeline-with-FastAPI" class="project-card" target="_blank">
+                    <div class="project-number">02</div>
+                    <h3>Deploying a Scalable ML Pipeline with FastAPI</h3>
+                    <p>Machine Learning assignment completed for the Udacity Data Analytics Nanodegree through WGU</p>
+                    <span class="project-link-text">View on GitHub →</span>
+                </a>
+        
+                <a href="https://github.com/AHunter2026/Weather_API_Application" class="project-card" target="_blank">
+                    <div class="project-number">03</div>
+                    <h3>Weather API Application</h3>
+                    <p>Created to gain historical weather via OpenMeteo API for various projects</p>
+                    <span class="project-link-text">View on GitHub →</span>
+                </a>
+
+                <a href="https://github.com/AHunter2026/ScrapyProject-SeedData" class="project-card" target="_blank">
+                    <div class="project-number">04</div>
+                    <h3>Seed Catalog Data Scraper</h3>
+                    <p>Scrapy-based tool to extract and structure seed variety data from Johnny's Seeds for analysis, comparison, and garden planning workflows.</p>
+                    <span class="project-link-text">View on GitHub →</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-heading">Education</h2>
+            <div class="education-grid">
+
+                <div class="edu-card">
+                    <div class="edu-year">2026</div>
+                    <h3>B.S. Data Analytics</h3>
+                    <p class="edu-school">Western Governors University</p>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-year">2013</div>
+                    <h3>M.A. Teaching English as a Second Language</h3>
+                    <p class="edu-school">Southeast Missouri State University</p>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-year">2009</div>
+                    <h3>B.A. Spanish, Minor in International Studies</h3>
+                    <p class="edu-school">Southeast Missouri State University</p>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-year">2020 & 2021</div>
+                    <h3>Certificates - Data Analytics/Python</h3> 
+                    <h3>Full Stack Development & Agile</h3>
+                    <p class="edu-school">Savvy Coders</p>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-year"></div>
+                    <h3>Certifications</h3>
+                    <p class="edu-school">CompTIA Project+ · CompTIA Data+ · AWS Cloud Practitioner · AXELOS ITIL</p>
+                    <h3>Previously Certified</h3>
+                    <p class="edu-school">Social Media Strategist & Google Marketing Certs</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's work together!</h2>
+                <p>I am a quick learner, loyal to a fault & willing to take on a challenge</p>
+                <div class="contact-links">
+                    <a href="mailto:ahunterofdata@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉</span>
+                        <span>ahunterofdata@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/AHunter2026" target="_blank" class="contact-link">
+                        <span class="contact-icon">⟠</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/a-hunter86" target="_blank" class="contact-link">
+                        <span class="contact-icon">◈</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <p>Full Resume and References Available Upon Request</p>
+        <p>&copy; 2026 Ashley Hunter. Built with HTML &amp; CSS.</p>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Navbar background on scroll
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Fade-in on scroll using IntersectionObserver
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.section, .timeline-item, .project-card, .edu-card, .skill-category').forEach(el => {
+            el.classList.add('reveal');
+            observer.observe(el);
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                 if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
